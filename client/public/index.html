@@ -1,43 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animations.css">  
+    <link rel="stylesheet" href="css/main.css">  
+    <link rel="stylesheet" href="css/index.css">
+    <title>MediSched</title>
+    <style>
+        table{
+            animation: transitionIn-Y-bottom 0.5s;
+        }
+    </style>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+</head>
+<body>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <div class="full-height">
+        <center>
+        <table border="0">
+            <tr>
+                <td width="80%">
+                    <font class="medisched-logo">MediSched. </font>
+                    <font class="medisched-logo-sub">| CAPSTONE PROJECT</font>
+                </td>
+                <td width="10%">
+                   <a href="about us.php"  class="non-style-link"><p class="nav-item">ABOUT US</p></a>
+                </td>
+                <td  width="10%">
+                    <a href="signup.php" class="non-style-link"><p class="nav-item" style="padding-right: 10px;">AI SYMPTOM CHECKER</p></a>
+                </td>
+                <td width="10%">
+                    <a href="find doctor.php" class="non-style-link"><p class="nav-item" style="padding-right: 10px;">FIND DOCTOR</p></a>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+                </td>
+            </tr>
+
+            <tr>
+                <td  colspan="3">
+                    <p class="heading-text">Let’s find the right doctor for you!</p>
+
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="3">
+                    <p class="sub-text2">Your health, your choice. Find top-rated doctors in your area.</p>
+                </td>
+            </tr>
+            <tr>
+
+                <td colspan="3">
+                    <center>
+                    <a href="login.php" >
+                        <input type="button" value="LOGIN" class="login-btn btn-primary btn" style="padding-left: 25px;padding-right: 25px;padding-top: 10px;padding-bottom: 10px;">
+                    </a>
+                    <a href="signup.php" >
+                        <input type="button" value="SIGNUP" class="signup-btn btn-primary btn" style="padding-left: 25px;padding-right: 25px;padding-top: 10px;padding-bottom: 10px;">
+                    </a>
+                </center>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="3">
+
+                </td>
+            </tr>
+        </table>
+        <p class="sub-text2 footer-TechSheroes">A Web Solution by TechSheroes.</p>
+    </center>
+
+    </div>
+</body>
 </html>
