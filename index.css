@@ -44,7 +44,7 @@ table{
 }
 
 
-.aboutus-btn{
+.register-btn{
     background-color: rgba(240, 248, 255, 0.589);
     color: #345cc4;
 }
@@ -83,16 +83,4 @@ table{
     left: 45%;
     font-size: 13px;
     animation: transitionIn-Y-over 0.5s;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
-
-body { 
-    font-family: 'Nunito', sans-serif; 
-    background-color: #ffefd5;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh; 
-    margin: 0;
 }
