@@ -1,3 +1,26 @@
+body{
+    background-image: url(./assets/women.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 30%;
+}
+
+.body {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: start;
+    text-align: start;
+    color: rgb(51, 51, 51);
+    font-family: sharp-sans-semibold, fallback-font, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-transform: none;
+}
+
 @media screen and (min-width: 1024px) {
     .fXjvyg {
         padding-top: 70px;
