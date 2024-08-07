@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+import './doctor.jpg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Login from './pages/login';
-import Signup from './pages/singup';
+import Signup from './src/signup';
 
 function App() {
   return (  
