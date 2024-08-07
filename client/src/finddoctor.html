@@ -13,56 +13,20 @@
   font-size: 16px;
   border: none;
 }
+<body>
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+<h1>Find A Doctor</h1> <br>
+    <h2>Search By</h2>
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+    <label for="insuranceprovider">Insurance Provider:</label> 
+    <input type="text" id="insurancenumber" name="insuranceprovider"><br><br>
+  
+    <label for="insurancenumber">Insurance Number:</label> 
+    <input type="text" id="insurancenumber" name="insurancenumber"><br><br>
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-</style>
-</head>
-
-<body style="background-color:rgb(255, 255, 255);">
-
-    <h1>Find A Doctor</h1><br>
+    <label for="lastfourssn">Last Four SSN:</label> 
+    <input type="text" id="lastfourssn" name="lastfourssn"><br><br>
+</body>
+</html>
 
 
-<div class="dropdown">
-  <button class="dropbtn">Specialty</button>
-
-  <div class="dropdown-content">
-     	<a href="#">Primary Care</a>
-        <a href="#">Optometrist</a>
-        <a href="#">Dentist</a>
-        <a href="#">Ob/Gyn</a>
-        <a href="#">Orthodontist</a>
-  </div>
-</div><br>
-
-<br><h2>Search By</h2><br>
-
-    <label for="zipcode">Zipcode:</label> 
-    <input type="text" id="zipcode" name="zipcode"><br><br>
-
-  </body>
