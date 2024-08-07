@@ -1,4 +1,8 @@
 import React from 'react';
+<head>
+link rel="stylesheet" href="./src/home.html"
+</head>
+
 
 const Signup = () => {
     
