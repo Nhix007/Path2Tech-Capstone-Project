@@ -1,5 +1,5 @@
 body{
-    background-image: url(./assets/doctor.png);
+    background-image: url(./assets/blkdoc.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -77,13 +77,11 @@ table{
 
 }
 
-.footer-TechSHEroes{
+footer {
+    display: flex;
     position: absolute;
     bottom: 0;
-    left: 45%;
-    font-size: 13px;
-    animation: transitionIn-Y-over 0.5s;
-}
+ }
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
