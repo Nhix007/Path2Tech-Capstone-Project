@@ -54,13 +54,11 @@ table{
     font-weight: bolder;
     font-size: 20px;
     padding-left: 20px;
-    animation: transitionIn-Y-over 0.5s;
-    
+    animation: transitionIn-Y-over 0.5s;  
 }
 .MediSched-logo-sub{
     color: rgba(255, 255, 255, 0.733);
     font-size: 12px;
-
 }
 
 
